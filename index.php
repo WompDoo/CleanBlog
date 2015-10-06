@@ -9,7 +9,7 @@ $q = mysqli_query("SELECT * FROM posts NATURAL JOIN authors");
 while ($row = mysqli_fetch_assoc($q)) {
     $posts[] = $row;
 }
-var_dump($posts);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
